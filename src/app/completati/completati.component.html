@@ -1,0 +1,4 @@
+
+<div class="container">
+  <app-single-todo *ngFor="let todo of arrayComplete" [todo]="todo" (getCompleted)="deleteCompletedTodo($event)"></app-single-todo>
+</div>

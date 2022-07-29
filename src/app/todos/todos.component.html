@@ -1,0 +1,12 @@
+<div class="p-container">
+  <div class="todos">
+      <app-single-todo *ngFor="let todo of arrayTodos" [todo]="todo" (getCompleted)="deleteCompletedTodo($event)"></app-single-todo>
+  </div>
+  <div class="newTodo">
+    <label for="addNew">Aggiungi TASK</label>
+    <input type="text" id="addNew" required="required">
+    <button (click)="addTodo()">OK</button>
+  </div>
+
+</div>
+<app-modale *ngIf="modalControl"></app-modale>

@@ -1,0 +1,29 @@
+.singleTodo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  #completa {
+    margin: .5em auto;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid green;
+    &:hover {
+      background-color: greenyellow;
+    }
+  }
+  #elimina {
+    background-color: rgba(255, 0, 0, 0.497);
+    color: white;
+    &:hover {
+      background-color: red;
+    }
+  }
+  #id {
+    background-color:white;
+    display: inline-block;
+    color: black;
+    width: 10%;
+  }
+
+}
+

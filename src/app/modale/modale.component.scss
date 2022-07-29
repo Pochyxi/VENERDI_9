@@ -1,0 +1,17 @@
+div {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 200vh;
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  .caricamento {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin: 10em auto;
+  }
+}

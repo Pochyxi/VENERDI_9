@@ -1,0 +1,6 @@
+<div class="singleTodo">
+    <div id="id">{{todo.id}}</div>
+    <p>{{todo.title}}</p>
+    <button id="completa" (click)="fetchCompletedTodos(this.todo.id, this.todo.completed)">{{todo.completed == true? 'completa' : 'annulla' }}</button>
+    <button id="elimina" (click)="deleteTodos(this.todo.id)">Elimina</button>
+</div>
