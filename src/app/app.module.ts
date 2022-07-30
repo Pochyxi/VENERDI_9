@@ -8,6 +8,7 @@ import { CompletatiComponent } from './completati/completati.component';
 import { SingleTodoComponent } from './single-todo/single-todo.component';
 import { NavTodosComponent } from './nav-todos/nav-todos.component';
 import { ModaleComponent } from './modale/modale.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,11 +17,12 @@ import { ModaleComponent } from './modale/modale.component';
     CompletatiComponent,
     SingleTodoComponent,
     NavTodosComponent,
-    ModaleComponent
+    ModaleComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

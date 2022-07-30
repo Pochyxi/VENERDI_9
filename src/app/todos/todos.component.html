@@ -4,8 +4,8 @@
   </div>
   <div class="newTodo">
     <label for="addNew">Aggiungi TASK</label>
-    <input type="text" id="addNew" required="required">
-    <button (click)="addTodo()">OK</button>
+    <input type="text" id="addNew" required="required" [(ngModel)]='inputVal' placeholder="Scrivi qui">
+    <button (click)="addTodo()">Conferma: {{inputVal}}</button>
   </div>
 
 </div>

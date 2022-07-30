@@ -10,7 +10,7 @@ import { TodosFetchService } from '../todos-fetch.service';
 export class TodosComponent implements OnInit {
 
   arrayTodos:Todo [] = [];
-  inputVal:string = 'prova';
+  inputVal:string = '';
   modalControl = false;
 
   constructor( private todoService:TodosFetchService ) { }
